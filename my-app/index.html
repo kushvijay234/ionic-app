@@ -13,13 +13,32 @@
     <ion-app>
         <!-- Header -->
         <ion-header>
-            <ion-toolbar>
+            <ion-toolbar color="primary">
               <ion-title>Buget Planner</ion-title>
             </ion-toolbar>
           </ion-header>
           <!-- Content  -->
         <ion-content class="ion-padding">
-        
+            <ion-card>
+                <ion-card-header>
+                    <ion-card-title>New Expense</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-item>
+                        <ion-label position="floating">Expense reason</ion-label>
+                        <ion-input type="text"></ion-input>
+                    </ion-item>
+  
+                    <ion-item>
+                      <ion-label position="floating">Expense Amount</ion-label>
+                      <ion-input type="number"></ion-input>
+                    </ion-item>
+                </ion-card-content>
+            </ion-card>
+                
+
+                
+
           </ion-content>
     </ion-app>
 </body>
